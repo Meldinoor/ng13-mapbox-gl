@@ -29,17 +29,6 @@
             "tsConfig": "projects/ngx-mapbox-gl/tsconfig.spec.json",
             "karmaConfig": "projects/ngx-mapbox-gl/karma.conf.js"
           }
-        },
-        "lint": {
-          "builder": "@angular-devkit/build-angular:tslint",
-          "options": {
-            "tsConfig": [
-              "projects/ngx-mapbox-gl/tsconfig.lib.json",
-              "projects/ngx-mapbox-gl/tsconfig.spec.json"
-            ],
-            "exclude": ["**/node_modules/**"],
-            "format": "stylish"
-          }
         }
       }
     },
@@ -141,17 +130,6 @@
               "projects/showcase/src/assets"
             ]
           }
-        },
-        "lint": {
-          "builder": "@angular-devkit/build-angular:tslint",
-          "options": {
-            "tsConfig": [
-              "projects/showcase/tsconfig.app.json",
-              "projects/showcase/tsconfig.spec.json"
-            ],
-            "exclude": ["**/node_modules/**"],
-            "format": "stylish"
-          }
         }
       }
     },
@@ -169,14 +147,6 @@
             "production": {
               "devServerTarget": "showcase:serve:production"
             }
-          }
-        },
-        "lint": {
-          "builder": "@angular-devkit/build-angular:tslint",
-          "options": {
-            "tsConfig": "projects/showcase-e2e/tsconfig.e2e.json",
-            "exclude": ["**/node_modules/**"],
-            "format": "stylish"
           }
         }
       }
@@ -206,16 +176,6 @@
             "main": "projects/ngx-mapbox-gl-geocoder-control/src/test.ts",
             "tsConfig": "projects/ngx-mapbox-gl-geocoder-control/tsconfig.spec.json",
             "karmaConfig": "projects/ngx-mapbox-gl-geocoder-control/karma.conf.js"
-          }
-        },
-        "lint": {
-          "builder": "@angular-devkit/build-angular:tslint",
-          "options": {
-            "tsConfig": [
-              "projects/ngx-mapbox-gl-geocoder-control/tsconfig.lib.json",
-              "projects/ngx-mapbox-gl-geocoder-control/tsconfig.spec.json"
-            ],
-            "exclude": ["**/node_modules/**"]
           }
         }
       }
