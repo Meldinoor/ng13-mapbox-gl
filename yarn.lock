@@ -162,7 +162,7 @@
     "symbol-observable" "4.0.0"
     "uuid" "8.3.2"
 
-"@angular/common@^12.0.0", "@angular/common@^13.0.0 || ^14.0.0-0", "@angular/common@^14.0.0-rc.0", "@angular/common@14.0.0-rc.0":
+"@angular/common@^12.0.0", "@angular/common@^13.0.0", "@angular/common@^13.0.0 || ^14.0.0-0", "@angular/common@^14.0.0-rc.0", "@angular/common@14.0.0-rc.0":
   "integrity" "sha512-CFG2gEwUqSMHucGG96ydENHKpU0nSjE2otQU6NTKy1CugawnI4zdZ9swLH8T6Vkj/AOwJ3udNvix2EdHx6qxcQ=="
   "resolved" "https://registry.npmjs.org/@angular/common/-/common-14.0.0-rc.0.tgz"
   "version" "14.0.0-rc.0"
@@ -197,7 +197,7 @@
   "resolved" "https://registry.npmjs.org/@angular/compiler/-/compiler-9.0.0.tgz"
   "version" "9.0.0"
 
-"@angular/core@^12.0.0", "@angular/core@^13.0.0 || ^14.0.0-0", "@angular/core@^14.0.0-rc.0", "@angular/core@14.0.0-rc.0":
+"@angular/core@^12.0.0", "@angular/core@^13.0.0", "@angular/core@^13.0.0 || ^14.0.0-0", "@angular/core@^14.0.0-rc.0", "@angular/core@14.0.0-rc.0":
   "integrity" "sha512-VE2W2QagAUcxyHBqmEgKHdwfsTSpDfunpFePAq9PthPx80ov5M82Ou/dwGV71A26B7jgnMNlGdy9Wzb+43e2Dw=="
   "resolved" "https://registry.npmjs.org/@angular/core/-/core-14.0.0-rc.0.tgz"
   "version" "14.0.0-rc.0"
@@ -237,7 +237,7 @@
   dependencies:
     "tslib" "^2.3.0"
 
-"@angular/router@^12.0.0", "@angular/router@^14.0.0-rc.0":
+"@angular/router@^13.0.0", "@angular/router@^14.0.0-rc.0":
   "integrity" "sha512-Onb23Ip5nMsQhFLwL2hzrYmqHNP6mHm4TnnCKA+7Nxdzo93lDHbdmT0bZKZCBQKnzmjj4WpGO8o6B851WrMX6A=="
   "resolved" "https://registry.npmjs.org/@angular/router/-/router-14.0.0-rc.0.tgz"
   "version" "14.0.0-rc.0"
@@ -1371,36 +1371,36 @@
   "resolved" "https://registry.npmjs.org/@mapbox/whoots-js/-/whoots-js-3.1.0.tgz"
   "version" "3.1.0"
 
-"@ngrx/effects@^12.1.0":
-  "integrity" "sha512-DcVovaJB9hZ8qo5UNjRS0KqLaMX8YreuR3EtRPUysB0aePBuoWQiN8HUic8DgmI2cN3KcZxOsRKj/1VaVArLJw=="
-  "resolved" "https://registry.npmjs.org/@ngrx/effects/-/effects-12.1.0.tgz"
-  "version" "12.1.0"
+"@ngrx/effects@^13.2.0":
+  "integrity" "sha512-HmWggpl3xGQFfUzON/uel5jSyUWsrGZsR5qR/oFLGjPRWzwKfdHrl0OcBl5IhFgFxT74cAi9F4JTICUytGRbFA=="
+  "resolved" "https://registry.npmjs.org/@ngrx/effects/-/effects-13.2.0.tgz"
+  "version" "13.2.0"
   dependencies:
     "tslib" "^2.0.0"
 
-"@ngrx/router-store@^12.1.0":
-  "integrity" "sha512-VjuDJDU2w2TlJUp82snjvgIPEHZO4q4BfOLLVEzWEME1q71VNSxx6eArW6Wk1PGWRqQ48YAI11pXC9PUi8ZI8A=="
-  "resolved" "https://registry.npmjs.org/@ngrx/router-store/-/router-store-12.1.0.tgz"
-  "version" "12.1.0"
+"@ngrx/router-store@^13.2.0":
+  "integrity" "sha512-ojHxsGsHljYWiqv/OUQHFLb4ZNvmsBlF+CHGZ7vCwLYJ2d9TB2y5nOezfaZ1L46MLUp+uM3FD3fpnIFwXYsTNw=="
+  "resolved" "https://registry.npmjs.org/@ngrx/router-store/-/router-store-13.2.0.tgz"
+  "version" "13.2.0"
   dependencies:
     "tslib" "^2.0.0"
 
-"@ngrx/schematics@^12.1.0":
-  "integrity" "sha512-cUL+pzy5jtFUq81B+kETJmca9/KqWatMxNXofdML2dyGGpk/yfs6bV8L/NQWyUxsyc01J+WswocWmFjNde0FYQ=="
-  "resolved" "https://registry.npmjs.org/@ngrx/schematics/-/schematics-12.1.0.tgz"
-  "version" "12.1.0"
+"@ngrx/schematics@^13.2.0":
+  "integrity" "sha512-MpSJFWF+Pppwv2C+0NNw8RPZmgbhaiEMCiF8VUkAJkXki9CV9Da6cTOa+v1nIrrfUpm/L+jD8DL9CPJTPccRZg=="
+  "resolved" "https://registry.npmjs.org/@ngrx/schematics/-/schematics-13.2.0.tgz"
+  "version" "13.2.0"
 
-"@ngrx/store-devtools@^12.1.0":
-  "integrity" "sha512-O+GfUsYPUrlbGHHcCH0WNkfnWD2TLQmXm2xhR1CkMTr+7YkdOKUZ1a0RwPM4VWuCu5QNVHS8bRS5V3IviiP9tQ=="
-  "resolved" "https://registry.npmjs.org/@ngrx/store-devtools/-/store-devtools-12.1.0.tgz"
-  "version" "12.1.0"
+"@ngrx/store-devtools@^13.2.0":
+  "integrity" "sha512-k1NifkR/4OjbjAxauVZODCsgs2owMJXvEX2XoTWth7zscbHE8L3pLd0k1ox5pMPUEqWIptWTaJDzYqnQSoJaaw=="
+  "resolved" "https://registry.npmjs.org/@ngrx/store-devtools/-/store-devtools-13.2.0.tgz"
+  "version" "13.2.0"
   dependencies:
     "tslib" "^2.0.0"
 
-"@ngrx/store@^12.1.0", "@ngrx/store@12.1.0":
-  "integrity" "sha512-HrNs7bs/MNkLxFnvGx7uPIvEP3RWqGMewVaFjqUxq6sDefn6D6TQ/Sv/8KsNNxuG7r7pKGw+U/tClunJhmRfpw=="
-  "resolved" "https://registry.npmjs.org/@ngrx/store/-/store-12.1.0.tgz"
-  "version" "12.1.0"
+"@ngrx/store@^13.2.0", "@ngrx/store@13.2.0":
+  "integrity" "sha512-3wlGMkfe0EXsiS6E6W0wCksuGapa5Z6JVFvKQMHFpXZ3XeixXKlULnemlcdMT7Yrnry+CGOtRHqkmKxLoQzhTw=="
+  "resolved" "https://registry.npmjs.org/@ngrx/store/-/store-13.2.0.tgz"
+  "version" "13.2.0"
   dependencies:
     "tslib" "^2.0.0"
 
